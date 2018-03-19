@@ -1,1 +1,7 @@
+require_relative '../lib/turn'
 #!/usr/bin/env ruby
+board = [" "," "," "," "," "," "," "," "," "]
+token = "X"
+
+puts "welcome to the tic tac toe games"
+display_board(board)
